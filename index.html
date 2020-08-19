@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="container">
+     <div class="inp_box">
+       <h1>Todo App</h1>
+     <input type="text" id="data">
+     <button id="add-btn" onclick="submitdata()">Add-Item</button>
+     <button id="delall-btn" onclick="delall()">Delete-All</button>
+    </div>
+  </div>
+    
+     <div class="list_container">
+     <div id="list">
+     </div>
+    </div>
+ 
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC9xIpgJugtVcKiPZQchGdEV6cb3LvI2M8",
+      authDomain: "data-5c4cf.firebaseapp.com",
+      databaseURL: "https://data-5c4cf.firebaseio.com",
+      projectId: "data-5c4cf",
+      storageBucket: "data-5c4cf.appspot.com",
+      messagingSenderId: "453847308960",
+      appId: "1:453847308960:web:06fe90967edab1f74347c5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+ <script src="app.js"></script>
+</body>
+</html>

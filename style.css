@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.inp_box{
+  width: 600px;
+}
+.inp_box input{
+  width: 400px;
+  height: 45px;
+  font-size: 16px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+}
+.inp_box h1{
+  color: greenyellow;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#add-btn,
+#delall-btn
+{
+  padding: 0 15px;
+  height: 45px;
+  border-radius: 100px;
+  border: none;
+  margin-left:10px ;
+  outline: none;
+}
+#add-btn,
+#save-btn
+{
+  background-color: greenyellow;
+  color: #fff;
+}
+#delall-btn{
+  background-color: red;
+  color: #fff;
+}
+
+.list_container{
+  display: flex;
+  justify-content: center;
+}
+.li_container{
+  width: 600px;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top:20px ;
+}
+#list li {
+  list-style-type: none;
+}
+#li-para{
+  display: inline-block; 
+  width: 400px ;
+  overflow: auto;
+  margin-left:20px ;
+}
+.edit-btn,
+.del-btn{
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  margin-left:5px ;
+}
+.edit-btn{
+  background-color: greenyellow;
+  color: #fff;
+}
+.del-btn{
+  background-color: red;
+  color: #fff;
+}
